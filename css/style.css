@@ -7,7 +7,23 @@ h1 {
 
 }
 
-h2 h3 h4 h5 h6 {
+h2 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h4 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+h6 {
 	font-family: 'Quicksand', sans-serif;
 }
 
@@ -81,7 +97,7 @@ section div i {
 }
 
 .sezione-immagini .immagine {
-	min-height: 15rem;
+	min-height: 20rem;
 	background-size: cover;
 
 }
@@ -130,6 +146,8 @@ a:hover {
 
 }
 
+
+
 a i:hover {
 	color: #DC0890;
 }
@@ -139,6 +157,8 @@ a i:active {
 	background-color: white !important;
 }
 
+
+
 /*Documentazione*/
 
 
@@ -147,18 +167,37 @@ a i:active {
 
 
 @media screen and (max-width: 768px) {
-	
-	.head-banner {
-		
-	}
+
 
 	h1 {
-		font-size: 50px;
+	font-size: 50px;
+	font-family: 'Playball', cursive;
+	letter-spacing: 5px;
 
+	}
+
+	h2 {
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h3 {
+		font-family: 'Quicksand', sans-serif;
 	}
 
 	h4 {
-		color: black;
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h5 {
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	h6 {
+		font-family: 'Quicksand', sans-serif;
+	}
+
+	p {
+		font-family: 'Quicksand', sans-serif;
 	}
 
 
@@ -185,29 +224,27 @@ a i:active {
 		margin-bottom: 10px;
 	}
 
-	
+	.prova {
+		display: inline;
+		
 
-	.trattamenti {
-		display: inline-block;
 	}
 
 
-	
+
+
+			
 	/*Documentazione*/
 
 	.wireframe {
 		width: 300px;
-
-		
+	
 	}
 
 
 
-	
-
-
-
 }
+
 
 
 
