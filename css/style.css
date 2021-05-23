@@ -81,7 +81,7 @@ section div i {
 }
 
 .sezione-immagini .immagine {
-	min-height: 10rem;
+	min-height: 15rem;
 	background-size: cover;
 
 }
@@ -157,6 +157,10 @@ a i:active {
 
 	}
 
+	h4 {
+		color: black;
+	}
+
 
 	.sezione-immagini .testo {
 		padding: 3rem;
@@ -167,8 +171,7 @@ a i:active {
 
 	}
 
-	.estetista {
-		
+	.estetista {		
 		margin-bottom: 10px;
 	}
 
@@ -183,12 +186,6 @@ a i:active {
 	}
 
 	
-
-	.consulenza {
-		padding-top: 1rem;
-		padding-bottom: 2rem;
-
-	}
 
 	.trattamenti {
 		display: inline-block;
