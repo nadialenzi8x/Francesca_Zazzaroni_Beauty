@@ -69,7 +69,6 @@ footer div ul li a:active {
 }
 
 
-
 /*Homepage*/
 
 .sezione-icone {
@@ -82,7 +81,7 @@ section div i {
 }
 
 .sezione-immagini .immagine {
-	min-height: 30rem;
+	min-height: 10rem;
 	background-size: cover;
 
 }
@@ -147,8 +146,6 @@ a i:active {
 
 
 
-
-
 @media screen and (max-width: 768px) {
 	
 	.head-banner {
@@ -156,14 +153,9 @@ a i:active {
 	}
 
 	h1 {
-		font-size: 20px;
+		font-size: 50px;
 
 	}
-
-
-
-
-	
 
 
 	.sezione-immagini .testo {
@@ -190,16 +182,16 @@ a i:active {
 		margin-bottom: 10px;
 	}
 
-	.immagine {
-		display: inline-block;
-		
-
-	}
+	
 
 	.consulenza {
 		padding-top: 1rem;
 		padding-bottom: 2rem;
 
+	}
+
+	.trattamenti {
+		display: inline-block;
 	}
 
 
