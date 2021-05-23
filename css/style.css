@@ -1,0 +1,225 @@
+/*Layout principale*/
+
+h1 {
+	font-size: 50px;
+	font-family: 'Playball', cursive;
+	letter-spacing: 5px;
+
+}
+
+h2 h3 h4 h5 h6 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand {
+	font-family: 'Playball', cursive;
+	color: #C30890 !important;
+}
+
+.head-banner {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+	background-color: #848484;	
+	background-image: url(../img/fiori.jpg);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+/*Consulenza*/
+
+.consulenza {
+	background-color: #848484;
+	padding top: 8rem;
+	padding-bottom: 8rem;
+	background-image: url(../img/fiori.jpg);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+/*Footer*/
+
+footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+footer div ul li i {
+	font-size: 30px;
+	
+}
+
+footer div ul li a {
+	color: black;
+	
+}
+
+footer div ul li a:hover {
+	color: #DC0890;
+	text-decoration: none;
+}
+
+footer div ul li a:active {
+	color: #E60890 !important;
+}
+
+
+
+/*Homepage*/
+
+.sezione-icone {
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+section div i {
+	font-size: 60px;
+}
+
+.sezione-immagini .immagine {
+	min-height: 30rem;
+	background-size: cover;
+
+}
+
+.sezione-immagini .testo {
+	padding: 7rem;
+}
+
+/*Bottoni e link*/
+
+.whatsapp {
+	color: white;
+	background-color: #25D366 !important;
+	border-radius: 8px;
+}
+
+.whatsapp:hover {
+	background-color: #C30890 !important;
+}
+
+.whatsapp:active {
+	color: #C30890 !important;
+	background-color: white !important;
+
+}
+
+.fa-instagram-square {
+	color: #E1306C;
+}
+
+.fa-whatsapp-square {
+	color: #25D366;
+}
+
+.fa-facebook-square {
+	color: #3b5998;
+}
+
+a {
+	color: #DC0890;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #C30890;
+
+}
+
+a i:hover {
+	color: #DC0890;
+}
+
+a i:active {
+	color: #C30890 !important;
+	background-color: white !important;
+}
+
+/*Documentazione*/
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+	
+	.head-banner {
+		
+	}
+
+	h1 {
+		font-size: 20px;
+
+	}
+
+
+
+
+	
+
+
+	.sezione-immagini .testo {
+		padding: 3rem;
+	}
+
+	.sezione-icone {
+		padding: 3rem;
+
+	}
+
+	.estetista {
+		
+		margin-bottom: 10px;
+	}
+
+	.makeup {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.consulente {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.immagine {
+		display: inline-block;
+		
+
+	}
+
+	.consulenza {
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+
+	}
+
+
+	
+	/*Documentazione*/
+
+	.wireframe {
+		width: 300px;
+
+		
+	}
+
+
+
+	
+
+
+
+}
+
+
+
+
