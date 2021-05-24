@@ -220,11 +220,11 @@ a i:active {
 		margin-bottom: 10px;
 	}
 
-	.prova {
-		display: inline;
-		
-
+	.cards {
+		display: inline-block;
 	}
+
+
 
 
 
