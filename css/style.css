@@ -161,6 +161,33 @@ a i:active {
 
 /*Documentazione*/
 
+	.architettura {
+		display: inline-block;
+		width: 100%;
+
+	}
+
+	.abstract {		
+		padding-bottom: 20px;
+
+	}
+
+	.screen {
+		display:inline-block;
+		width: 50%;
+
+
+	}
+
+	.screen_insta {
+		display:inline-block;
+		width: 50%;
+		
+
+	}
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -224,11 +251,6 @@ a i:active {
 		display: inline-block;
 	}
 
-
-
-
-
-
 			
 	/*Documentazione*/
 
@@ -236,6 +258,22 @@ a i:active {
 		width: 300px;
 	
 	}
+
+	.screen {
+		display:inline-block;
+		width: 100%;
+
+
+	}
+
+	.screen_insta {
+		display:inline-block;
+		width: 100%;
+		
+
+	}
+
+
 
 
 
