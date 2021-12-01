@@ -58,6 +58,29 @@ p {
 	background-blend-mode: multiply;
 }
 
+.sezione-natale{
+	background-color: black;
+	padding: 10px;
+}
+
+.row-natale{
+	text-align: center;
+	color: white;
+}
+
+.promonatale{
+	color: #9F120B;
+}
+
+.fa-angle-down {
+	color: #C30890;
+}
+
+div h3 a {
+	color: #9F120B;
+
+}
+
 /*Footer*/
 
 footer {
