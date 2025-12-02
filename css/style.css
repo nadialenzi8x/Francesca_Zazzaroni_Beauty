@@ -1,0 +1,451 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    min-width: 320px;
+}
+
+.corsivo{
+    font-size: 50px;
+	font-family: 'Playball', cursive;
+	letter-spacing: 5px;
+    color: #ffff;
+}
+
+.description{
+    color: #ffff;
+}
+
+nav{
+    position: fixed;
+}
+
+.navbar-brand{
+    color: #C30890 !important;
+}
+
+.navbar-brand:hover{
+    color: #C30890 !important;
+}
+
+.nav-link:hover{
+    color: #C30890 !important;
+}
+
+.active{
+    color: #C30890 !important;
+}
+
+a:hover{
+    color: #C30890 !important;
+}
+
+.btn:hover{
+    background-color: #C30890 !important;
+    border-color: #C30890 !important;
+}
+
+.btn-primary:hover{
+    color: white !important;
+}
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #25D366;
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.whatsapp-btn i {
+    font-size: 20px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebe5d;
+}
+
+.instagram-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.instagram-btn i {
+    font-size: 20px;
+}
+
+.instagram-btn:hover {
+    filter: brightness(1.1);
+}
+
+.social-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center; 
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.icon.whatsapp {
+    background-color: #25D366;
+}
+
+.icon.instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.facebook-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #1877F2; /* Facebook blue */
+    color: #fff;
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.facebook-btn i {
+    font-size: 20px;
+}
+
+.facebook-btn:hover {
+    filter: brightness(1.1);
+}
+
+
+.collab{
+    text-align: center; 
+    font-size:large;
+}
+
+#FZB{
+    background-color:#848484;
+    background-image: url(../img/fiori.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 150px 20px;   /* ⬅️ 150px sopra/sotto, 20px ai lati */
+    text-align: right;
+}
+
+#info{
+    text-align: center;
+}
+
+#chi-sono{
+    text-align: left;
+    padding-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.border-custom {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 5%;
+}
+
+#chi-sono-img{
+    position: left;
+}
+
+.servizi-viola{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    background-color: #E0D8FD;
+    padding-bottom: 2%;
+}
+
+#servizio-consulenza{
+    color: #ffff;
+    background-color: #848484;
+    background-image: url(../img/francesca_specchio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 50px;
+    margin: auto;
+
+}
+
+#indice-servizi{
+    margin: auto;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#indice-servizi a{
+    text-decoration: none;
+    color: #766C9E;
+    display: block;
+    
+}
+
+.btn-primary{
+    background-color: #766C9E;
+    border-color: #766C9E;
+}
+
+#row-servizi{
+    text-align: center;
+}
+
+.box{
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 1/1;
+  border: 5px solid #766C9E;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  display: inline-block;
+} 
+
+.servizi{
+    margin: 5%;
+}
+
+#consulenza {
+	background-color: #848484;
+	padding: 5%;
+	background-image: url(../img/fiori.jpg);
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+    
+}
+
+.btn{
+    border-radius: 10px;
+    border-style: solid;
+}
+
+footer {
+	margin-top: 5%;
+	margin-bottom: 5%;
+    text-align: center;
+}
+
+footer div ul li i {
+	font-size: 30px;
+}
+
+footer div ul li a {
+	color: black;
+    text-decoration: none;	
+}
+
+footer div ul li a:hover {
+	color: #DC0890;
+	text-decoration: none;
+}
+
+footer div ul li a:active {
+	color: #DC0890 !important;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.fa-solid {
+    color: #fff;
+    background-color: #766C9E;
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 2rem;
+
+    display: inline-flex !important;                 
+    justify-content: center;      
+    align-items: center;       
+    
+    margin: 15px auto;
+    padding: 0;                   
+    line-height: 1;               
+}
+.fa-solid {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+.servizio-link {
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #766C9E;  
+}
+
+.servizio-link i {
+    display: flex !important; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.servizio-link:hover i {
+    background-color: #C30890; 
+}
+
+.servizio-link:hover span {
+    color: #C30890;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: #4c1eff;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;     
+}
+
+.icon-small{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.img-contatti {
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 5px solid #C30890;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+#contatti{
+    text-align: left;
+    padding-left: 10%;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    #FZB{
+         padding: 40px 10px;
+    }
+    
+
+    .box{
+        width: 140px;
+        height: 140px;
+    }
+
+
+    #chi-sono {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 10%;
+    }
+
+    #chi-sono-img{
+        margin-top: 2%;
+        size: 2rem;
+    }
+
+    .servizi-viola {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    #servizio-consulenza {
+        padding: 40px 20px;
+    }
+
+    .corsivo{
+        font-size: xx-large;
+    }
+
+    #chi-sono-img img {
+        width: 70%;      
+        margin: 0 auto;      
+        display: block;
+    }
+
+    .fa-solid {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+
+
+    .icon-small{
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 14px;
+        color: #fff;
+        text-decoration: none;
+        transition: 0.2s ease;
+    }
+
+
+}
+
+
+@media (max-width: 400px) {
+    .navbar-brand.corsivo {
+        font-size: 28px;
+        letter-spacing: 2px;
+        white-space: normal; 
+    }
+}
