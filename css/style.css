@@ -199,7 +199,6 @@ a:hover{
     background-blend-mode: multiply;
     padding: 50px;
     margin: auto;
-
 }
 
 #indice-servizi{
@@ -240,7 +239,7 @@ a:hover{
     margin: 5%;
 }
 
-#consulenza {
+#slogan {
 	background-color: #848484;
 	padding: 5%;
 	background-image: url(../img/fiori.jpg);
@@ -368,6 +367,183 @@ hr {
     margin: 10px;
 }
 
+#promozione-1 {
+    color: #ffff;
+    background-color: #848484;
+    background-image: url(../img/promo-dimagrimento.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 0px;
+    margin: auto;
+}
+
+#promozione-2 {
+    color: #ffff;
+    background-color: #848484;
+    background-image: url(../img/francesca_specchio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding: 0px;
+    margin: auto;
+}
+
+.box-label{
+border: 2px solid;
+border-color: #25D366;
+background-color:#25D366;
+width: 100%;
+max-width: 250px;
+margin: 0 auto; 
+} 
+
+/* pagina promozioni */
+
+/* Grid promo cards */
+.promo-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+/* Card */
+.promo-card{
+  background: #fff;
+  border: 1px solid rgba(118,108,158,0.12);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(118,108,158,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 260px;
+}
+
+.promo-card header h2{
+  font-size: 1.25rem;
+  margin: 0 0 4px 0;
+  color: #C30890;
+}
+.promo-card .validita{
+  font-size: 0.9rem;
+  color: #6b6b6b;
+  margin-bottom: 10px;
+}
+
+.inclusi{
+  list-style: none;
+  padding-left: 0;
+  margin: 8px 0 16px 0;
+  color: var(--text);
+}
+.inclusi li{
+  margin: 8px 0;
+}
+
+/* Footer della card */
+.promo-footer{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 12px;
+}
+.price{
+  font-weight: 700;
+  color: #C30890;
+  font-size: 1.25rem;
+  background: rgba(118,108,158,0.08);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+.price.small{
+  font-size:1rem;
+  padding:6px 8px;
+}
+
+/* pulsante CTA */
+.btn.cta{
+  background: #25D366;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.btn.cta:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(195,8,144,0.12);
+  color: white !important;
+}
+
+/* Sezione massaggi */
+.promo-massaggi{
+  margin-top: 28px;
+  padding: 18px;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(118,108,158,0.06);
+  box-shadow: 0 6px 18px rgba(118,108,158,0.04);
+}
+.promo-massaggi h2{
+  color:#C30890;
+  text-align:left;
+}
+.massaggi-list{
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  margin-top:12px;
+}
+.massaggio{
+  flex:1 1 280px;
+  background: #faf9ff;
+  border-radius:10px;
+  padding:12px;
+  border:1px solid rgba(118,108,158,0.04);
+}
+.massaggio h3{
+  margin:0 0 6px 0;
+  color:#C30890;
+}
+.massaggio-price{
+  font-weight:700;
+  color:#C30890;
+  margin-bottom: 8px;
+}
+.massaggio-desc{
+  color:#6b6b6b;
+  margin:0;
+}
+
+/* Note finali */
+.note{
+  margin-top: 14px;
+  padding-left: 4px;
+  color: #6b6b6b;
+}
+
+#promozioni {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Mobile tweaks */
+@media (max-width: 576px){
+  .promo-hero h1{ font-size: 2.4rem; }
+  .promo-card{ min-height: auto; padding:14px; }
+  .promo-footer{ flex-direction: column; align-items: stretch; gap:10px; }
+  .massaggi-list{ flex-direction: column; }
+  #promozioni-page.container{ padding: 0 14px; }
+}
 
 @media screen and (max-width: 768px) {
 
